@@ -406,7 +406,7 @@ img {
 /* Клієнти */
 .clients {
   text-align: center;
-  background-color: var(--white-color);
+  background-color: var(--background-main-color);
 }
 
 .clients-list {
@@ -475,6 +475,9 @@ img {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.6;
+
+  transition: var(--title-text-color), var(--transition-bg),
+    box-shadow 250 ms var(--animation-timing-function);
 }
 
 .filter .item:not(:last-child) {
@@ -504,6 +507,7 @@ img {
 }
 .portfolio .item {
   width: calc((100% - 60px) / 3);
+  transition: box-shadow 250ms var(--animation-timing-function);
 }
 
 .submenu {
