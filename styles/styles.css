@@ -465,7 +465,7 @@ img {
 .filter-button {
   display: block;
   border-radius: 4px;
-  border: 1px solid transparent;
+  border: none;
   padding: 6px 22px;
 
   background-color: #f5f4fa;
@@ -475,9 +475,8 @@ img {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.6;
-
-  transition: var(--title-text-color), var(--transition-bg),
-    box-shadow 250 ms var(--animation-timing-function);
+  transition: var(--transition-text), var(--transition-bg),
+    box-shadow 250ms var(--animation-timing-function);
 }
 
 .filter .item:not(:last-child) {
