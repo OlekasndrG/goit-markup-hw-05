@@ -638,7 +638,7 @@ button:focus svg {
   fill: var(--accent-text-color);
 }
 
-.modal-icon {
+.close {
   fill: currentColor;
 }
 
